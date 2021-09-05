@@ -24,4 +24,13 @@ Table of Content
 15. footer part
 */
 /*Common css */
-a
+img{
+	width: 100%;
+}
+/* banner css start*/
+.slider_item{
+	background-position: center;
+	background-size: cover;
+	height:660px;
+}
+/*// banner css end*/
