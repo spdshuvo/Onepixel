@@ -34,3 +34,15 @@ img{
 	height:660px;
 }
 /*// banner css end*/
+#page_content{
+	background-image: url(../images/bg/1\ \(1\).jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 595px;
+}
+#video{
+	background-image: url(../images/bg/2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+}
