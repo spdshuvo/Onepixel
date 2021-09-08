@@ -1,7 +1,9 @@
 $(function () {
             'use strict';
             //banner slick slider plugin
-            $(".banner_slider").slick()
+            $(".banner_slider").slick({
+                arrows:false,
+            })
             //filterizer plugin
             $('.filterizer-container').filterizr()
             //magnific-popup
@@ -58,4 +60,18 @@ $(function () {
                 autoplaySpeed:3000,
                 arrows:false,
             })
+            //map interagetion
+            map = new GMaps({
+                div: '.google_map',
+                lat: 22.3569,
+                lng: 91.7832
+              });
+              map.addMarker({
+                lat: 22.3569,
+                lng: 91.7832,
+                title: 'Lima',
+                click: function(e) {
+                  alert('You clicked in this marker');
+                }
+              });
             })
