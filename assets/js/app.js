@@ -61,17 +61,9 @@ $(function () {
                 arrows:false,
             })
             //map interagetion
-            map = new GMaps({
+                new GMaps({
                 div: '.google_map',
                 lat: 22.3569,
                 lng: 91.7832
-              });
-              map.addMarker({
-                lat: 22.3569,
-                lng: 91.7832,
-                title: 'Lima',
-                click: function(e) {
-                  alert('You clicked in this marker');
-                }
               });
             })
